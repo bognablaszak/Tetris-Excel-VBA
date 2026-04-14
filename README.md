@@ -13,15 +13,27 @@ This project was co-created as part of a University assignment for "Excel Applic
 
 * **[Bogna Błaszak]**: 
     * Core Engine Development (Physics, Rotations, Collision Logic).
-    * Technical Documentation & Presentation.
+    * System Architecture Design & Refactoring.
     * Windows API Integration.
 * **[Karolina Kielak]**: 
     * UI/UX Design (Canva-based visuals) & UserForms implementation.
     * Performance Optimization & Game State Management (Pause, Hard Drop).
     * Ranking System & Data Persistence.
 
+## Project Structure
+* `/src` - Full source code exported from VBA (Modules, Class Modules, and UserForms).
+* `/assets` - Visual assets and project screenshots.
+* `Tetris_Excel_VBA.xlsm` - The main executable Excel file.
+
 ## How to Run
 1. Download the `Tetris_Excel_VBA.xlsm` file.
 2. Open in Microsoft Excel (Windows version recommended for WinAPI support).
 3. **Enable Macros** when prompted.
 4. Click "Start Game" and enjoy!
+
+##  Controls
+* **Arrow Left/Right** - Move Piece
+* **Arrow Up** - Rotate
+* **Arrow Down** - Soft Drop
+* **Spacebar** - Hard Drop (Instant)
+* **P** - Pause Game
