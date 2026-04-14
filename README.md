@@ -2,6 +2,10 @@
 
 A fully functional, high-performance Tetris game built entirely within Microsoft Excel using VBA (Visual Basic for Applications). This project demonstrates that Excel can be used as a real-time game engine by leveraging low-level Windows APIs and dynamic UI generation.
 
+<p align="center">
+  <img src="assets/gameplay.gif" width="60%" alt="Tetris Excel VBA Engine Gameplay" />
+</p>
+
 ##  Key Technical Features
 * **Real-time Input handling:** Uses `GetAsyncKeyState` (Windows API) for lag-free, responsive controls.
 * **Dynamic UI Generation:** Automatically builds a 200-cell game board using `MSForms.Label` objects via code.
