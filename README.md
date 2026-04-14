@@ -42,3 +42,5 @@ This project was co-created as part of a University assignment for "Excel Applic
 * **Arrow Down** - Soft Drop
 * **Spacebar** - Hard Drop (Instant)
 * **P** - Pause Game
+
+For more visual details, check the /assets folder.
