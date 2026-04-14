@@ -24,6 +24,7 @@ This project was co-created as part of a University assignment for "Excel Applic
 * `/src` - Full source code exported from VBA (Modules, Class Modules, and UserForms).
 * `/assets` - Visual assets and project screenshots.
 * `Tetris_Excel_VBA.xlsm` - The main executable Excel file.
+* `documentation.pdf` - Technical documentation.
 
 ## How to Run
 1. Download the `Tetris_Excel_VBA.xlsm` file.
